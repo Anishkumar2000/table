@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+table {
+  height: auto;
+  width: 100%;
+  border: 0.2rem solid black;
+}
+thead {
+  height: 2VH;
+  width: 100%;
+}
+
+th {
+  height: auto;
+  width: auto;
+  border: 0.15rem solid black;
+  background-color: orange;
+}
+tbody {
+  height: 40vh;
+  width: 100%;
+}
+td {
+  text-align: center;
+  background-color: whitesmoke;
+  border: 0.11rem solid black;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+}
+.update {
+  background-color: green;
+  border: none;
+  height: 4vh;
+  width: 35%;
+  color: white; 
+}
+.delete {
+  background-color: red;
+  border: none;
+  height: 4vh;
+  width: 35%;
+  border-radius: 6%;
+  color: white;
+}
