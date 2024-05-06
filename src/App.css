@@ -7,31 +7,6 @@ body{
   height: 100%;
   width: 100%;
 }
-h1{
-  height: 15vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
-.btn1{
-  height: 10vh;
-  width: 100%;
-  /* background-color: orangered; */
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  
-}
-.add{
-background-color: green;
-  border: none;
-  height: 5vh;
-  width: 5%;
-  color: white;
-  margin-right: 2%; 
-  
-}
 
 
 

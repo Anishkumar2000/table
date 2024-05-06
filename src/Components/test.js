@@ -5,7 +5,7 @@ let Employee_deatils = [
     E_mail_id: "anish@gmail.com",
     Mobile_no: 1234556610,
     Position: "Web Developer",
-    Hour: 150
+    Hour: 150,
   },
   {
     Id: "EMP02",
@@ -40,7 +40,7 @@ let Employee_deatils = [
     Hour: 200,
   },
   {
-    Id: "EMP06",
+    Id: "EMP05",
     Name: "Nantha Kumar",
     E_mail_id: "nantha@gmail.com",
     Mobile_no: 77384945234,
@@ -49,6 +49,4 @@ let Employee_deatils = [
   },
 ];
 
-export default Employee_deatils;
-
-  
+console.log(Employee_deatils);

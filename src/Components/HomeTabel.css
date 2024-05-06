@@ -7,9 +7,46 @@ body {
   height: 100%;
   width: 100%;
 }
-table {
-  height: auto;
+.Container{
+  height: 100vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.Head{
+  height: 13vh;
+  width: 100%;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn1{
+  height: 7vh;
+  width: 100%;
+  /* background-color: yellowgreen; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+ 
+}
+
+.add{
+  height: 5vh;
+  width: 5vw;
+  background-color: green;
+  border: none;
+  color: white;
+  position: relative;
+  right: 100%;
+  
+  
+}
+table {
+  height: 65vh;
+  width: 90%;
   border: 0.2rem solid black;
 }
 thead {
@@ -18,9 +55,9 @@ thead {
 }
 
 th {
-  height: auto;
+  height: 6vh;
   width: auto;
-  border: 0.15rem solid black;
+  border: 0.15rem solid silver;
   background-color: orange;
 }
 tbody {
@@ -30,7 +67,7 @@ tbody {
 td {
   text-align: center;
   background-color: whitesmoke;
-  border: 0.11rem solid black;
+  border: 0.11rem solid silver;
 }
 .btn {
   display: flex;
@@ -42,14 +79,18 @@ td {
   background-color: green;
   border: none;
   height: 4vh;
-  width: 35%;
+  width: 120%;
   color: white; 
 }
 .delete {
   background-color: red;
   border: none;
   height: 4vh;
-  width: 35%;
-  border-radius: 6%;
+  width: 40%;
   color: white;
+}
+footer{
+  height: 10vh;
+  width: 100%;
+  /* background-color: orangered; */
 }
